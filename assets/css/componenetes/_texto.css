@@ -1,0 +1,49 @@
+.texto_tituloSessaoDestaque{
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+.texto_tituloSessao{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.texto__destaque{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 32px; 
+    
+}
+.texto__tituloCartao{
+    font-weight: 700;
+    font-size: 1.125rem; 
+    line-height: 24px;
+}
+.texto__info{
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--fonte-alternativa);
+    line-height: 24px; 
+}
+.texto__botao{
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-left: 10px;   
+}
+.texto__tituloMiniatura{
+    line-height: 24px; 
+    font-size:  0.875rem;
+    font-weight: 700;
+}
+.texto__link{
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--link);
+}
+.texto__picos-maisVistos{
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 24px;
+}
+.texto_videoDestaque{
+    font-weight: 600;
+    font-size: 2rem;
+}

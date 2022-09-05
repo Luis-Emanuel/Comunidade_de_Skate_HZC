@@ -1,0 +1,10 @@
+.sessao{
+    display: grid;
+    gap: 16px; 
+    margin-bottom: 16px;
+}
+@media screen and (min-width: 1440px){
+    .sessao{
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,81 @@
+.principal__picos{
+    display: grid;
+    row-gap: 16px;
+    margin-bottom: 51px;
+}
+.bannner_descricaoPico{
+    width: 100%;
+}
+.sessao_decricaoPico{
+    display: grid;
+    row-gap: 16px;
+    margin: 0px 16px;
+}
+.picoDescricao__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sessao_decricaoPico-mapa{
+    background-image: url(../img/artigo_2.png);
+    height: 256px;
+    width: 100%;
+    border-radius: 15px;
+    background-size: cover;
+}
+.sessao_decricaoPico-imagens{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+.mais-vistos{
+    display: none;
+}
+.bannner-descricao-desktop{
+    display: none;
+}
+.picos-similares{
+    display: none;
+}
+@media screen and (min-width: 1440px) {
+    .principal__picos{
+        column-gap: 32px;
+        padding: 16px 60px;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+        "descricao-pico picos-similares" ;
+    }
+    .bannner-descricao-mobile{
+        display: none;
+    }
+    .bannner-descricao-desktop{
+        display: block;
+        border-radius: 15px;
+        height: 480px;
+    }
+    .bannner-descricao{
+        grid-area: bannner-descricao;
+        display: grid;
+    }
+    .descricao-pico{
+        grid-area: descricao-pico;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 32px;
+    }
+    .picos-similares{
+        display: grid;
+        row-gap: 16px;
+        width: 256px;
+        grid-area: picos-similares;
+        align-self: flex-start;
+    }
+    .mais-vistos{
+        display: block;
+    }
+    .conteudo-corpo{
+        grid-column: span 2;
+    }
+    .sessao_decricaoPico-imagem{
+        max-height: 260px;
+    }
+}

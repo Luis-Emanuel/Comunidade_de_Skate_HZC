@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/cabeçalho.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/componenetes/cartaoPico.css">
+    <link rel="stylesheet" href="assets/css/picos.css">
+    <title>Picos</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+        <img src="assets/img/logo.svg" alt="Logo da HZC" class="cabecalho__logo">
+        <p class="cabecalho__perfil">Bruno Lopez</p>
+        <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
+    </header>
+    <nav class="menu-lateral">
+        <img src="assets/img/logo.svg" alt="Logo da HZC" class="menu-lateral__logo">
+        <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio ">Início</a>
+        <a href="videos.html" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
+        <a href="picos.html" class="menu-lateral__link menu-lateral__link--picos menu-lateral__link--ativo">Picos</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
+    </nav>
+    <main class="principal">
+        <h2 class="texto_tituloSessaoDestaque titulo-pagina">Picos</h2>
+        <article class="sessao cartao__pico mapa-picos"></article>
+        <article class="cartao cartaoLateral favoritos">
+            <h3 class="texto__tituloCartao">Favoritos</h3>
+            <a class="texto__link cartaoLateral__link" href="#">Ver todos</a>
+            <ul class="cartaoLateral__lista">
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/artigo4.jpg" alt="">
+                    <h4 class="texto__tituloMiniatura">Wallride da FGP</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/miniatura_4.png" alt="">
+                    <h4 class="texto__tituloMiniatura">Borda de valores</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/artigo3.jpg" alt="">
+                    <h4 class="texto__tituloMiniatura">Wallride do Rebouças</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/artigo_4.png" alt="">
+                    <h4 class="texto__tituloMiniatura">Segundo setor da Praça Mauá</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/miniatura_4.png" alt="">
+                    <h4 class="texto__tituloMiniatura">Borda de valores</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/artigo3.jpg" alt="">
+                    <h4 class="texto__tituloMiniatura">Wallride do Rebouças</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+            </ul>
+        </article>
+        <section class="sessao mais-vistos">
+            <h2 class="texto__picos-maisVistos">Mais visitados</h2>
+            <article class="cartao">
+                <img src="assets/img/artigo_1.jpg" alt="">
+                <div class="cartao__descricao" >
+                    <p class="texto__info cartao__autor ">Bruno Lopes</p>
+                    <h3 class=" texto__tituloCartao cartao__titulo">Gap do Itaú da Voluntários da Pátria</h3>
+                    <p class="texto__info visualizacao">53 visualizações</p>
+                    <a href="picoDescricao.html"class="botao__simples pico"></a>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="assets/img/artigo2.jpg" alt="">
+                <div class="cartao__descricao" >
+                    <p class="texto__info cartao__autor ">Luiza Sampaio</p>
+                    <h3 class=" texto__tituloCartao cartao__titulo">Gap com mureta da Voluntários</h3>
+                    <p class="texto__info visualizacao">53 visualizações</p>
+                    <a href="#" class="botao__simples pico"></a></a> 
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="assets/img/artigo3.jpg" alt="">
+                <div class="cartao__descricao" >
+                    <p class="texto__info cartao__autor ">André Soares</p>
+                    <h3 class=" texto__tituloCartao cartao__titulo">Rampa da entrada do túnel Rebouças</h3>
+                    <p class="texto__info visualizacao">53 visualizações</p>
+                    <a href="#" class="botao__simples pico"></a></a> 
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="assets/img/artigo4.jpg" alt="">
+                <div class="cartao__descricao" >
+                    <p class="texto__info cartao__autor ">Júlia Fonseca</p>
+                    <h3 class=" texto__tituloCartao cartao__titulo">Wallride de pedra portuguesa da FGP</h3>
+                    <p class="texto__info visualizacao">53 visualizações</p>
+                    <a href="#" class="botao__simples pico"></a></a> 
+                </div>
+            </article>
+        </section>    
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

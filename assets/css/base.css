@@ -1,0 +1,70 @@
+@import url(_reset.css);
+@import url(componenetes/_botao.css);
+@import url(componenetes/_cartao.css);
+@import url(componenetes/_icones.css);
+@import url(componenetes/_texto.css);
+@import url(componenetes/_sessao.css);
+@import url(componenetes/_cartaoLateral.css);
+@import url(componenetes/_cartaoPico.css);
+
+:root{
+    /*CORES*/
+    --corpo: #1D232A;
+    --cabeçalho: #1D232A;
+    --cabeçalho-mobile: #15191C;
+    --menu_lateral: #15191C;
+    --cartão: #2C343A;
+    --fonte: #FFFFFF;
+    --fonte-alternativa: #95999C;
+    --link: #0480DC;
+    --botão: #0480DC;
+
+    /*SOMBRA*/
+    --sombras: 0px 4px 4px rgba(0, 0, 0, 0.16);
+
+    /*ICONES*/
+    --camisas: "\e900";
+    --carrinho: "\e901";
+    --inicio: "\e902";
+    --integrantes: "\e903";
+    --menu: "\e904";
+    --moeda: "\e905";
+    --notificação: "\e906";
+    --pico: "\e908";
+    --picos: "\e909";
+    --pinturas: "\e90a";
+    --play: "\e90b";
+    --relogio: "\e90c";
+    --seta-baixo: "\e90d";
+    --videos: "\e90e";
+    --visualização: "\e90f";
+}
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+body{
+    background-color: var(--corpo);
+    font-family: "Open Sans", "icones", sans-serif;
+    color: var(--fonte);
+}
+.principal{
+    padding: 24px 16px;
+    display: grid;
+    gap: 16px;
+}
+@media screen and (min-width: 1440px) {
+    body{
+        display: grid;
+        grid-template-columns: auto 1fr ;
+        grid-template-rows: auto 1fr ;
+
+    }
+    .principal{
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        column-gap: 32px;
+        padding: 16px 60px;
+        grid-column: 2;  
+    }
+}

@@ -1,0 +1,53 @@
+.banner__destaque-desktop{
+    display: none;
+}
+@media screen and (min-width: 1440px) {
+    .principal{
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        column-gap: 32px;
+        padding: 16px 60px;
+        grid-template-areas: 
+        "titulo-pagina      titulo-pagina      titulo-pagina"
+        "videos-destaque    videos-destaque    videos-recentes"
+        "videos-mais-vistos videos-mais-vistos videos-mais-vistos"
+        "novas-artes        arte-destaque      arte-destaque"
+        "camisas-recentes   camisas-recentes   camisas-recentes"
+        ;
+    }
+    .banner__destaque-mobile{
+        display: none;
+    }
+    .banner__destaque-desktop{
+        display: block;
+    }
+    .titulo-pagina{
+        grid-area: titulo-pagina;
+    }
+    .videos-destaque{
+        grid-area: videos-destaque;
+    }
+    .videos-recentes{
+        grid-area: videos-recentes;
+    }
+    .videos-mais-vistos{
+        grid-area: videos-mais-vistos;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .novas-artes{
+        grid-area: novas-artes;
+    }
+    .arte-destaque{
+        grid-area: arte-destaque;
+    }
+    .camisas-recentes{
+        grid-area: camisas-recentes;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .camisas-recentes>.texto_tituloSessao{
+        grid-column: span 4;        
+    }
+    .videos-mais-vistos>.texto_tituloSessao{
+            grid-column: span 4;
+    }
+}

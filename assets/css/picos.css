@@ -1,0 +1,34 @@
+.cartaoLateral{
+    display: none;
+}
+@media screen and (min-width: 1440px) {
+    
+    .principal{
+        grid-template-columns: 1fr auto;
+        row-gap: 24px;
+        grid-template-areas: 
+        "titulo-pagina titulo-pagina"
+        "mapa-picos favoritos"
+        "mais-vistos mais-vistos"
+        ;
+    }
+    .titulo-pagina{
+        grid-area: titulo-pagina;
+    }
+    .mapa-picos{
+        grid-area: mapa-picos;
+    }
+    .favoritos{
+        display: grid;
+        grid-area: favoritos;
+    }
+    .mais-vistos{
+        grid-area: mais-vistos;
+        display: grid;
+        row-gap: 24px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .mais-vistos>.texto__picos-maisVistos{
+        grid-column: span 4;
+    }
+}

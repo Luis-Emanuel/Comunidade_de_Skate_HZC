@@ -1,0 +1,34 @@
+.visualizacao::before{
+    content: var(--visualização);
+    margin-right: 5.33px;
+}
+.minutos::before{
+    content: var(--relogio);
+    margin-right: 5.33px;
+}
+.moeda::before{
+    content: var(--moeda);
+    margin-right: 5.33px;
+}
+.play::before{
+    content: var(--play);
+    font-size: 1.25rem ;
+}
+.carrinho::before{
+    content: var(--carrinho);
+    font-size: 1.25rem ;
+}
+.pico::before{
+    content: var(--pico);
+}
+.perfil{ 
+    width: 1.5rem;
+    margin-right: 5.33px;
+}
+@media screen and (min-width: 1440px) {
+    .perfil{ 
+        width: 48px;
+        
+    }
+
+}

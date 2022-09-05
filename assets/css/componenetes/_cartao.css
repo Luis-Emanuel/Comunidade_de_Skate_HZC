@@ -1,0 +1,23 @@
+.cartao{
+    width: 100%;
+    border-radius: 15px;
+    background-color: var(--cartão);
+    overflow: hidden;
+}
+.cartao__descricao{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;  
+    padding: 16px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.cartao__principal{
+    grid-column: span 2;
+}
+.cartao__titulo{
+    grid-column: span 2;
+}
+.cartao__autor{
+    grid-column: span 2;
+}

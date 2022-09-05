@@ -1,0 +1,26 @@
+.botao__destaque{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--botão);
+    border-radius: 5px;
+    grid-column: span 2;
+    padding: 12px 0px;
+    box-sizing: border-box;
+}
+.botao__simples{
+    display: flex;
+    justify-content: space-around;
+    justify-self: end;
+    background-color: var(--botão);
+    border-radius: 5px; 
+    padding: 5px;
+}
+@media screen and (min-width: 1440px) {
+    .botao__destaque{
+        grid-column: auto;
+        padding: 16px 8px;
+    }
+}
