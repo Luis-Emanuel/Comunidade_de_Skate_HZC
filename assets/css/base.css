@@ -1,11 +1,11 @@
-@import url(_reset.css);
-@import url(../../assets/css/componenetes/_botao.css);
-@import url(../../assets/css/componenetes/_cartao.css);
-@import url(../../assets/css/componenetes/_icones.css);
-@import url(../../assets/css/componenetes/_texto.css);
-@import url(../../assets/css/componenetes/_sessao.css);
-@import url(../../assets/css/componenetes/_cartaoLateral.css);
-@import url(../../assets/css/componenetes/_cartaoPico.css);
+@import url(reset.css);
+@import url(../../assets/css/componenetes/botao.css);
+@import url(../../assets/css/componenetes/cartao.css);
+@import url(../../assets/css/componenetes/icones.css);
+@import url(../../assets/css/componenetes/texto.css);
+@import url(../../assets/css/componenetes/sessao.css);
+@import url(../../assets/css/componenetes/cartaoLateral.css);
+@import url(componenetes/cartaoPico.css);
 
 :root{
     /*CORES*/
