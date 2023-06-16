@@ -1,7 +1,7 @@
 <h1 align="center">Comunidade de Skate HZC</h1>
 <p align="center"> Pagina Web de uma comunidade de skate, esse projeto tem como objetivo praticar o posicionamento de elementos utilizando grid</p>
 <div align="center">
-<img src="" />
+<img src="https://github.com/Luis-Emanuel/Comunidade-de-Skate-HZC/blob/main/readme/comunidade-gif.gif?raw=true" />
 </div>
 
 ## 🔨 Funcionalidades do projeto
@@ -29,7 +29,13 @@ O pagina da comunidade de skate HZC e composta três pagina (início, Vídeos Pi
 [Veja o projeto final em funcionamento]( https://luis-emanuel.github.io/Comunidade-de-Skate-HZC/).
 ## 📷FOTOS DO PROJETO
 <div align="center">
-<img width="90%" src=""/>
+<img width="90%" src="https://github.com/Luis-Emanuel/Comunidade-de-Skate-HZC/blob/main/readme/comunidade-img.png?raw=true"/>
+<hr> 
+<img width="90%" src="https://github.com/Luis-Emanuel/Comunidade-de-Skate-HZC/blob/main/readme/comunidade2-img.png?raw=true"/>
+<hr> 
+<img width="90%" src="https://github.com/Luis-Emanuel/Comunidade-de-Skate-HZC/blob/main/readme/comunidade3-img.png?raw=true"/>
+<hr> 
+<img width="90%" src="https://github.com/Luis-Emanuel/Comunidade-de-Skate-HZC/blob/main/readme/comunidade4-img.png?raw=true"/>
 </div>
 
 
