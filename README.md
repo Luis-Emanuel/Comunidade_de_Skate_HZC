@@ -26,7 +26,7 @@ O pagina da comunidade de skate HZC e composta três pagina (início, Vídeos Pi
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final em funcionamento]( https://luis-emanuel.github.io/Comunidade-de-Skate-HZC/).
+[Veja o projeto final em funcionamento](https://comunidade-skate-hzc-nt.vercel.app/).
 ## 📷FOTOS DO PROJETO
 <div align="center">
 <img width="90%" src="https://github.com/Luis-Emanuel/Comunidade-de-Skate-HZC/blob/main/readme/comunidade-img.png?raw=true"/>
